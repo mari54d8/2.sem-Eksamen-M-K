@@ -1,0 +1,102 @@
+[
+    {
+        "id":1,
+        "date": "2. juni",
+        "event": "Åben Ø på Kegnæs. Loppemarkeder og åbne gallerier."
+    }, 
+    {
+        "id":2,
+        "date": "4. juni",
+        "event": "Familiekoncert med Sønderjyllands Symfoniorkester, Alsion"
+    },
+    {
+        "id":3,
+        "date": "5. juni",
+        "event": "Grundlovsdag i Danmark."
+    },
+    {
+        "id":4,
+        "date": "7.-8. juni",
+        "event": "Nord-Als Musikfestival på Nordborg Slot. www.musikfestival.dk"
+    },
+    {
+        "id":5,
+        "date": "8. juni",
+        "event": "Kapsejlads Als Rundt fra Sønderborg. www.syc.dk/als-rundt"
+    },
+    {
+        "id":6,
+        "date": "14.-16. juni",
+        "event": "Garn uden Grænser, strikkefestival i Sønderborg"
+    },
+    {
+        "id":7,
+        "date": "15.-16. juni",
+        "event": "Als Vikingemarked på Kær Vestermark ved Sønderborg. www.alsviking.dk"
+    },
+    {
+        "id":8,
+        "date": "16. juni",
+        "event": "Dansk Mølledag"
+    }, 
+    {
+        "id":9,
+        "date": "16.-22. juni",
+        "event": "WoodSculpture på Sønderborg Havn. www.woodsculpture.dk"
+    },
+    {
+        "id":10,
+        "date": "23. juni",
+        "event": "Sankt Hans-koncert. Sønderjyllands Symfoniorkester, Alsion."
+    },
+    {
+        "id":11,
+        "date": "29. juni",
+        "event": "KreaFestival i Nordborg"
+    },
+    {
+        "id":12,
+        "date": "29.-30. juni",
+        "event": "1864dage på Dybbøl Banke. www.1864dage.dk"
+    },
+    {
+        "id":13,
+        "date": "1.-31. juli",
+        "event": "Sommerferie på Historiecenter Dybbøl Banke. www.1864.dk"
+    },
+    {
+        "id":14,
+        "date": "12. juli",
+        "event": "Kombineret by-og ringridertur Sønderborg"
+    },
+    {
+        "id":15,
+        "date": "12.-14. juli",
+        "event": "Dampf Rundum i Flensburg. www.dampfrundum.de"
+    },
+    {
+        "id":16,
+        "date": "12.-15. juli",
+        "event": "Sønderborg Ringridning. www.ringriderfesten.dk"
+    },
+    {
+        "id":17,
+        "date": "14. juli",
+        "event": "Kombineret by-og ringridertur i Sønderborg"
+    },
+    {
+        "id":18,
+        "date": "14. juli",
+        "event": "Internationalt Tattoo-Show, kl. 19 i Broager Sparekasse Skansen. www.billetsalg.dk"
+    },
+    {
+        "id":19,
+        "date": "18. juli",
+        "event": "Skovby by night"
+    },
+    {
+        "id":20,
+        "date": "25. juli",
+        "event": "Skovby by night"
+    }
+]
