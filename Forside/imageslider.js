@@ -7,7 +7,7 @@ let currentSlide = 0
 
 function changeImage() {
   imgContainer.style.transform = `translateX(-${
-    currentSlide = imgContainer.offsetWidth
+    currentSlide * imgContainer.offsetWidth
   }px)`
 }
 
