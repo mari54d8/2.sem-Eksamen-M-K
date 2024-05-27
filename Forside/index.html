@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forside</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
         <a href="#"><img class="navbar__logo" src="images/LOGO.png" alt="logo"></a>
         <ul class="navbar__menu">
             <li class="menuItem">
-                <a class="menuItem__link" href="#">Det sker</a>
+                <a class="menuItem__link" href="events.html">Det sker</a>
             </li>
             <li class="menuItem">
                 <a class="menuItem__link" href="#">Aktiv natur</a>
@@ -38,8 +38,7 @@
             <span class="hamburger__bar"></span>
         </div>
     </nav>
-</header>
-            
+</header>       
 
 <section class="hero">
     <img class="hero__image" src="images/forside-hero.jpg" alt="Sønderborg">
@@ -49,29 +48,121 @@
     </section>
 </section>
 
+<section class="inspiration">
+    <h2 class="inspiration__header">Mangler du inspiration?</h2>
+    <p class="inspiration__info">Er du klar til at opdage de mest fantastiske seværdigheder 
+        og attraktioner, der passer perfekt til dine ferieønsker? 
+        Tag vores spændende og sjove test, og få skræddersyede 
+        anbefalinger, der gør din ferie uforglemmelig!</p>
+    <p class="inspiration__info">Uanset om du er eventyrlysten, kulturinteresseret, eller 
+        søger afslapning, har vi noget for dig. Testen tager kun ét 
+        minut og vil åbne døren til en verden af oplevelser, du måske 
+        aldrig har tænkt på.</p>
+    <p class="inspiration__info  inspiration__info--bold">Klik på knappen nedenfor for at starte din rejse mod en ferie 
+        fyldt med magiske øjeblikke og uventede eventyr!</p>
+    <a class="button__primary button__inspiration" href="#">Fortsæt</a>
+        
+</section>
+
 <section class="cards">
     <section class="card"> 
-        <h2 class="card__header">Aktiv natur</h2>
-
-        <img class="card__image" src="images/aktiv-natur-hero.png" alt="forest">
+        <h2 class="card__header card__header--first">Aktiv natur</h2>
+        <section class="carousel">
+            <section class="img__container img__container1">
+                <img src="images/aktivNatur-slider-1.png" alt="">
+                <img src="images/aktivNatur-slider-2.png" alt="">
+                <img src="images/aktivNatur-slider-3.png" alt="">
+            </section>
+            <div class="btn btn-left btn-left1"> <img class="icon" src="images/Arrow 2.png" alt=""></div>
+            <div class="btn btn-right btn-right1"><img class="icon" src="images/Arrow 1.png" alt=""></div>
+        </section>
         <p class="card__info">Velkommen til Als!</p>
-        <p class="card__info"> Hvor kystens klitter møder frodige skove og grønne marker. 
+        <p class="card__info card__info--second"> Hvor kystens klitter møder frodige skove og grønne marker. 
             Udforsk øens varierede natur med afslappende strandture, 
             spændende vandreture og fredfyldte søer - en skattekiste af naturoplevelser venter dig!</p>
         <a class="button__primary button__aktivNatur" href="#">Læs mere</a>
     </section>
-</section>
 
-<section class="carousel">
-    <section class="img__container">
-        <img src="images/kegnæs-strand-aktiv-natur-1.png" alt="">
-        <img src="images/gendarmstien-aktiv-natur-1.png" alt="">
-        <img src="images/nørreskoven-aktiv-natur-1.png" alt="">
+    <section class="card card__second"> 
+        <h2 class="card__header card__header--second">For hele familien</h2>
+        <section class="carousel carousel__second ">
+            <section class="img__container img__container2">
+                <img src="images/forHeleFamilien-slider-1.png" alt="">
+                <img src="images/forHeleFamilien-slider-2.png" alt="">
+                <img src="images/forHeleFamilien-slider-3.png" alt="">
+            </section>
+            <div class="btn btn-left btn-left2 "> <img class="icon" src="images/Arrow 2.png" alt=""></div>
+            <div class="btn btn-right btn-right2"><img class="icon" src="images/Arrow 1.png" alt=""></div>
+        </section>
+        <p class="card__info card__info__second">Oplevelser for hele familien i Sønderborg </p>
+        <p class="card__info card__info--second card__info__second">inkluderer spændende besøg på Universe Science Park. 
+            Derefter kan I dykke ned i Danmarks historie på Dybbøl Banke Historiecenter, 
+            hvor I kan lære om det dramatiske Slag ved Dybbøl og opleve historien på nært hold.</p>
+        <a class="button__primary button__forHeleFamilien" href="#">Læs mere</a>
     </section>
-    <div class="btn btn-left"> <img class="icon" src="images/Arrow 2.png" alt=""></div>
-    <div class="btn btn-right"><img class="icon" src="images/Arrow 1.png" alt=""></div>
 
+    <section class="card"> 
+        <h2 class="card__header card__header--third card__header--first" >Kultur & Historie</h2>
+        <section class="carousel ">
+            <section class="img__container img__container3">
+                <img src="images/kulturHistorie-slider-1.png" alt="">
+                <img src="images/kulturHistorie-slider-2.png" alt="">
+                <img src="images/kulturHistorie-slider-3.png" alt="">
+            </section>
+            <div class="btn btn-left btn-left3"> <img class="icon" src="images/Arrow 2.png" alt=""></div>
+            <div class="btn btn-right btn-right3"><img class="icon" src="images/Arrow 1.png" alt=""></div>
+        </section>
+        <p class="card__info">Oplevelser for hele familien i Sønderborg </p>
+        <p class="card__info card__info--second">inkluderer spændende besøg på Universe Science Park. 
+            Derefter kan I dykke ned i Danmarks historie på Dybbøl Banke Historiecenter, 
+            hvor I kan lære om det dramatiske Slag ved Dybbøl og opleve historien på nært hold.</p>
+        <a class="button__primary button__kulturHistorie" href="#">Læs mere</a>
+    </section>
+
+    <section class="card card__second"> 
+        <h2 class="card__header card__header--fourth">Det sker</h2>
+        <section class="carousel carousel__second ">
+            <section class="img__container img__container4">
+                <img src="images/detSker-slider-1.png" alt="">
+                <img src="images/detSker-slider-2.png" alt="">
+                <img src="images/detSker-slider-3.png" alt="">
+            </section>
+            <div class="btn btn-left btn-left4"> <img class="icon" src="images/Arrow 2.png" alt=""></div>
+            <div class="btn btn-right btn-right4"><img class="icon" src="images/Arrow 1.png" alt=""></div>
+        </section>
+        <p class="card__info card__info__second">Oplevelser for hele familien i Sønderborg </p>
+        <p class="card__info card__info--second card__info__second">inkluderer spændende besøg på Universe Science Park. 
+            Derefter kan I dykke ned i Danmarks historie på Dybbøl Banke Historiecenter, 
+            hvor I kan lære om det dramatiske Slag ved Dybbøl og opleve historien på nært hold.</p>
+        <a class="button__primary button__detSker" href="events.html">Læs mere</a>
+    </section>
+
+    <section class="card"> 
+        <h2 class="card__header card__header--fifth card__header--first">Køb din Kombi-billet!</h2>
+        <p class="card__info">Kombi-billetten indeholder flere forskellige atraktioner 
+            rundt omkring i Sønderborg kommune, som for eksempel:</p>
+        <p class="card__info card__info--second">
+            <li class="card__info--listItem">Universe Sience Park</li>
+            <li class="card__info--listItem">Museum Sønderjylland</li>
+            <li class="card__info--listItem">Historiecenter Dybbølbanke</li>
+            <li class="card__info--listItem">Dybbølmølle</li>
+            <li class="card__info--listItem">Sønderborg slot</li>
+        </p>
+        <section class="card__logos">
+            <img class="card__logo" src="images/logo museum.png" alt="">
+            <img class="card__logo" src="images/logo-dybbølbanke.png" alt="">
+            <img class="card__logo" src="images/logo-dybbølmølle.png" alt="">
+            <img class="card__logo" src="images/logo-sønderborgslot.png" alt="">
+            <img class="card__logo" src="images/universe logo.png" alt="">
+        </section>
+        <a class="button__primary button__kombiBillet" href="https://stjerne-attraktioner.dk/ ">Køb her!</a>
+    </section>
 </section>
+
+
+
+
+
 <script src="imageslider.js"></script>
     <script src="header.js"></script>
 </body>
