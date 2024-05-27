@@ -21,8 +21,7 @@ body{
 .navbar {
     display: flex;
     justify-content: space-between;
-    background: white;
-}
+  background: white;}
 
 .navbar__menu {
     display: flex;
@@ -63,14 +62,11 @@ body{
         width: 100%;
         transition: 0.3s;
         box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-        }
+            0 10px 27px rgba(0, 0, 0, 0.05);}
 
     .navbar__menu.active {
         left: 0;
-        padding: 28px;
-        
-        }
+        padding: 28px;}
 
     .hamburger {
         display: block;
@@ -86,8 +82,7 @@ body{
 
     .hamburger.active .hamburger__bar:nth-child(3) {
         -webkit-transform: translateY(-8px) rotate(-45deg);
-        transform: translateY(-8px) rotate(-45deg);}
-}
+        transform: translateY(-8px) rotate(-45deg);}}
 
 .header{
     container-type: inline-size;
@@ -102,31 +97,27 @@ body{
     .menuItem__link{
         font-size: 36px;}}
 
-
-
 /* ------Herosection----*/
 
-
 .hero{
-   
-    margin-top: -105px;
-}
+    margin-top: -105px;}
+
 .hero__image{
     width: 100%;
-    min-height: 450px;
-}
-
+    min-height: 450px;}
 
 .hero__headers{
     padding-left: 28px;
     color: white; 
     font-size: 38px;
     margin-top: -40%;
-    margin-bottom: 30%;
-    
-}
+    margin-bottom: 30%;}
+
 .hero__header{
-    margin: 5px;
+    margin: 5px;}
+
+.hero__header--event{
+    margin-top: 15%;
 }
 /*ipad*/
 
@@ -141,42 +132,129 @@ body{
         font-size: 120px;}
     }
 
-/* ------forside------ */
 
+/* ----- Inspiration ----- */
+
+.inspiration{
+    background: rgba(255, 255, 255, 0.50); 
+    padding-bottom: 50px;
+    margin-bottom: 28px;
+    max-width: 100%;
+}
+
+.inspiration__header{
+    font-size: 26px;
+    text-align: center;
+}
+
+.inspiration__info{
+    margin: 0 34px 26px 34px ;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.inspiration__info--bold{
+    font-weight: 700;
+}
+
+
+/* ipad/desktop */
+@media (min-width: 915px){
+    .inspiration__header{
+        font-size: 40px;
+    }
+    .inspiration__info{
+        font-size: 24px;
+    }
+}
 
 /* ----info cards----*/
 
 .cards{
-    display: grid;
-    padding-top: 10px;
-}
+    padding-top: 10px;}
 
 .card{
     background-color:rgba(255, 255, 255, 0.50) ;
     padding: 28px 28px 48px 28px;
     margin: 18px;
-    border-radius: 25px;
-}
-
-.card__image{
-    width: 100%;
-    border-radius: 25px
-}
+    border-radius: 25px;}
 
 .card__header{
     color:#809638;
     margin: 0 0 16px 0;
-    font-size: 36px;
+    font-size: 36px;}
 
+.card__header--second{
+    color: #395473;}
+
+.card__header--third{
+    color: #F69323;}
+
+.card__header--fourth{
+    color: #BE323E;
 }
 
+.card__header--fifth{
+    color: #188165;
+}
 .card__info{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    font-size: 18px;}
+
+
+
+.card__info--listItem{
+    font-family: Montserrat;
     font-size: 18px;
 }
+
+.card__logos{
+    height: 70px;
+}
+
+.card__logo{
+    height: 40px;
+    margin-right: 5px;
+}
+
+@media(min-width:950px){
+
+.cards{
+    display: grid;
+    gap: 80px;
+}
+.card{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.card__header--first{
+    grid-column: 3;
+}
+
+.carousel__second{
+   margin: 0 0 0 auto;
+   width: 100%;
+    grid-column: 2;
+    grid-row: 1 / span 4;
+}
+.card__info__second{
+    display: flex;
+    flex-grow: 1;
+    min-height: 100%;
+}
+.button__aktivNatur{
+    margin: 0 0 0 auto;
+}
+.button__kulturHistorie{
+    margin: 0 0 0 auto;
+}
+
+}
+
+
 
 /* ----Button-----*/
 
@@ -190,10 +268,14 @@ body{
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 0 6px 0 #932730, 0 10px 15px rgba(0, 0, 0, 0.2);
-    transition: transform 0.1s ease, box-shadow 0.1s ease,
-      background-color 0.1s ease;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
     text-decoration: none;
-  }
+    display: flex;
+    max-width: 100px;
+    justify-content: center;
+    height: 40px;
+}
+    
   
   .button__primary:hover {
     background-color: rgb(198, 96, 96);
@@ -203,38 +285,82 @@ body{
   .button__primary:active {
     transform: translateY(6px);
     box-shadow: 0 0 0 #932730, 0 6px 10px rgba(0, 0, 0, 0.2);
-    background-color: #932730;
-  }
+    background-color: #932730;}
 
+.button__inspiration{
+   margin: auto;
+}
 
+.button__aktivNatur{
+    background-color:#809638;
+    box-shadow: 0 6px 0 #5E6F24, 0 10px 15px rgba(0, 0, 0, 0.2);}
+.button__aktivNatur:hover{
+    background-color: #b7cd6f;
+    box-shadow: 0 6px 0 #809638, 0 10px 15px rgba(0, 0, 0, 0.2);}
+.button__aktivNatur:active{
+    transform: translateY(6px);
+    box-shadow: 0 0 0 #5c6d25, 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: #5c6d25;
+}
 
+.button__forHeleFamilien{
+    background-color: #395473;
+    box-shadow: 0 6px 0 #223245, 0 10px 15px rgba(0, 0, 0, 0.2);}
+.button__forHeleFamilien:hover{
+    background-color: #4d6b81;
+    box-shadow: 0 6px 0 #285473, 0 10px 15px rgba(0, 0, 0, 0.2);}
+.button__forHeleFamilien:active{
+    transform: translateY(6px);
+    box-shadow: 0 0 0 #163c57, 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: #163c57;
+}
+
+.button__kulturHistorie{
+    background-color: #F69323;
+    box-shadow: 0 6px 0 #C87B24, 0 10px 15px rgba(0, 0, 0, 0.2);}
+.button__kulturHistorie:hover{
+    background-color: #f6b66c;
+    box-shadow: 0 6px 0 #F69323, 0 10px 15px rgba(0, 0, 0, 0.2);}
+.button__kulturHistorie:active{
+    transform: translateY(6px);
+    box-shadow: 0 0 0 #9a5b13, 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: #9a5b13;}
+
+.button__kombiBillet{
+    background-color: #188165;
+    box-shadow: 0 6px 0 #0f644d, 0 10px 15px rgba(0, 0, 0, 0.2);}
+.button__kombiBillet:hover{
+    background-color: #28b28d;
+    box-shadow: 0 6px 0 #188165, 0 10px 15px rgba(0, 0, 0, 0.2);}
+.button__kombiBillet:active{
+    transform: translateY(6px);
+    box-shadow: 0 0 0 #115f4a, 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: #115f4a;}
 
 /* ----image slider----*/
 
 .carousel{
     overflow: hidden;
-    width: 675px;
-    height: 405px;
     position: relative;
-    margin: 28px;
+   
 }
 .img__container{
     height: 100%;
     display: flex;
     transform: translateX(0);
-    transition: transform 0.5s ease-in-out;
-    
+    transition: transform 0.5s ease-in-out;  
 }
 
 .img__container img{
-    min-height: 100%;
-    min-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .btn{
     position: absolute;
-    bottom: 165px;
+    bottom: 38%;
     width: 70px;
     height: 70px;
     background-color:rgba(255, 255, 255, 0.50);
@@ -245,14 +371,19 @@ body{
 }
 
 .btn-left{
-    left: 30px;
+    left: 20px;
 }
 
 .btn-right{
-    right: 50px;
+    right: 20px;
 }
 
 .btn:hover{
     background-color: rgba(0,0,0,0.5);
 }
 
+
+
+
+
+/* ------- footer ------*/
