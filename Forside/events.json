@@ -1,122 +1,155 @@
 [
     {
         "id":1,
-        "date": "2. juni",
-        "event": "Åben Ø på Kegnæs. Loppemarkeder og åbne gallerier.",
-        "time": "Fra kl.12"
+        "date": "2.",
+        "month":"juni",
+        "detSker": "Åben Ø på Kegnæs. Loppemarkeder og åbne gallerier.",
+        "time": "Fra kl.12",
+        "category": "familie"
     }, 
     {
         "id":2,
-        "date": "4. juni",
-        "event": "Familiekoncert med Sønderjyllands Symfoniorkester, Alsion",
-        "time": "Fra kl.12"
+        "date": "4.",
+        "month":"juni",
+        "detSker": "Familiekoncert med Sønderjyllands Symfoniorkester, Alsion",
+        "time": "Fra kl.12",
+        "category": "familie"
+        
     },
     {
         "id":3,
-        "date": "5. juni",
-        "event": "Grundlovsdag i Danmark.",
-        "time": "Fra kl.12"
+        "date": "5.",
+        "month":"juni",
+        "detSker": "Grundlovsdag i Danmark.",
+        "time": "Fra kl.12",
+        "category": "kultur"
     },
     {
         "id":4,
-        "date": "7.-8. juni",
-        "event": "Nord-Als Musikfestival på Nordborg Slot. www.musikfestival.dk",
-        "time": "Fra kl.12"
+        "date": "7.-8.",
+        "month":"juni",
+        "detSker": "Nord-Als Musikfestival på Nordborg Slot. www.musikfestival.dk",
+        "time": "Fra kl.12",
+        "category": "detSker"
     },
     {
         "id":5,
-        "date": "8. juni",
-        "event": "Kapsejlads Als Rundt fra Sønderborg. www.syc.dk/als-rundt",
-        "time": "Fra kl.12"
+        "date": "8.",
+        "month":"juni",
+        "detSker": "Kapsejlads Als Rundt fra Sønderborg. www.syc.dk/als-rundt",
+        "time": "Fra kl.12",
+        "category": "detSker"
     },
     {
         "id":6,
-        "date": "14.-16. juni",
-        "event": "Garn uden Grænser, strikkefestival i Sønderborg",
-        "time": "Fra kl.12"
+        "date": "14.-16.",
+        "month":"juni",
+        "detSker": "Garn uden Grænser, strikkefestival i Sønderborg",
+        "time": "Fra kl.12",
+        "category": "familie"
     },
     {
         "id":7,
-        "date": "15.-16. juni",
-        "event": "Als Vikingemarked på Kær Vestermark ved Sønderborg. www.alsviking.dk",
-        "time": "Fra kl.12"
+        "date": "15.-16.",
+        "month":"juni",
+        "detSker": "Als Vikingemarked på Kær Vestermark ved Sønderborg. www.alsviking.dk",
+        "time": "Fra kl.12",
+        "category": "kultur"
     },
     {
         "id":8,
-        "date": "16. juni",
-        "event": "Dansk Mølledag",
-        "time": "Fra kl.12"
+        "date": "16.",
+        "month":"juni",
+        "detSker": "Dansk Mølledag",
+        "time": "Fra kl.12",
+        "category": "kultur"
     }, 
     {
         "id":9,
-        "date": "16.-22. juni",
-        "event": "WoodSculpture på Sønderborg Havn. www.woodsculpture.dk",
-        "time": "Fra kl.12"
+        "date": "16.-22.",
+        "month":"juni",
+        "detSker": "WoodSculpture på Sønderborg Havn. www.woodsculpture.dk",
+        "time": "Fra kl.12",
+        "category": "kultur"
     },
     {
         "id":10,
-        "date": "23. juni",
-        "event": "Sankt Hans-koncert. Sønderjyllands Symfoniorkester, Alsion.",
-        "time": "Fra kl.12"
+        "date": "23.",
+        "month":"juni",
+        "detSker": "Sankt Hans-koncert. Sønderjyllands Symfoniorkester, Alsion.",
+        "time": "Fra kl.12",
+        "category": "familie"
     },
     {
         "id":11,
-        "date": "29. juni",
-        "event": "KreaFestival i Nordborg",
-        "time": "Fra kl.12"
+        "date": "29.",
+        "month":"juni",
+        "detSker": "KreaFestival i Nordborg",
+        "time": "Fra kl.12",
+        "category": "familie"
     },
     {
         "id":12,
-        "date": "29.-30. juni",
-        "event": "1864dage på Dybbøl Banke. www.1864dage.dk",
-        "time": "Fra kl.12"
+        "date": "29.-30.",
+        "month":"juni",
+        "detSker": "1864dage på Dybbøl Banke. www.1864dage.dk",
+        "time": "Fra kl.12",
+        "category": "kultur"
     },
     {
         "id":13,
-        "date": "1.-31. juli",
-        "event": "Sommerferie på Historiecenter Dybbøl Banke. www.1864.dk",
-        "time": "Fra kl.12"
+        "date": "1.-31.",
+        "month":"juni",
+        "detSker": "Sommerferie på Historiecenter Dybbøl Banke. www.1864.dk",
+        "time": "Fra kl.12",
+        "category": "kultur"
     },
     {
         "id":14,
-        "date": "12. juli",
-        "event": "Kombineret by-og ringridertur Sønderborg",
-        "time": "Fra kl.12"
+        "date": "12.",
+        "month":"juli",
+        "detSker": "Kombineret by-og ringridertur Sønderborg",
+        "time": "Fra kl.12",
+        "category": "familie"
     },
     {
         "id":15,
-        "date": "12.-14. juli",
-        "event": "Dampf Rundum i Flensburg. www.dampfrundum.de",
-        "time": "Fra kl.12"
+        "date": "12.-14.",
+        "month":"juli",
+        "detSker": "Dampf Rundum i Flensburg. www.dampfrundum.de",
+        "time": "Fra kl.12",
+        "category": "kultur"
     },
     {
         "id":16,
-        "date": "12.-15. juli",
-        "event": "Sønderborg Ringridning. www.ringriderfesten.dk",
-        "time": "Fra kl.12"
+        "date": "12.-15.",
+        "month":"juli",
+        "detSker": "Sønderborg Ringridning. www.ringriderfesten.dk",
+        "time": "Fra kl.12",
+        "category": "familie"
     },
     {
         "id":17,
-        "date": "14. juli",
-        "event": "Kombineret by-og ringridertur i Sønderborg",
-        "time": "Fra kl.12"
+        "date": "14.",
+        "month":"juli",
+        "detSker": "Kombineret by-og ringridertur i Sønderborg",
+        "time": "Fra kl.12",
+        "category": "familie"
     },
     {
         "id":18,
-        "date": "14. juli",
-        "event": "Internationalt Tattoo-Show, kl. 19 i Broager Sparekasse Skansen. www.billetsalg.dk",
-        "time": "Fra kl.12"
+        "date": "14.",
+        "month":"juli",
+        "detSker": "Internationalt Tattoo-Show, kl. 19 i Broager Sparekasse Skansen. www.billetsalg.dk",
+        "time": "Fra kl.12",
+        "category": "detSker"
     },
     {
         "id":19,
-        "date": "18. juli",
-        "event": "Skovby by night",
-        "time": "Fra kl.12"
-    },
-    {
-        "id":20,
-        "date": "25. juli",
-        "event": "Skovby by night",
-        "time": "Fra kl.12"
+        "date": "18.",
+        "month":"juli",
+        "detSker": "Skovby by night",
+        "time": "Fra kl.12",
+        "category": "detSker"
     }
 ]
