@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Side</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html"
+          ><img class="navbar__logo" src="images/LOGO.png" alt="logo"
+        /></a>
+        <ul class="navbar__menu">
+          <li class="menuItem">
+            <a class="menuItem__link" href="events.html">Det sker</a>
+          </li>
+          <li class="menuItem">
+            <a class="menuItem__link" href="#">Aktiv natur</a>
+          </li>
+          <li class="menuItem">
+            <a class="menuItem__link" href="#">For hele familien</a>
+          </li>
+          <li class="menuItem">
+            <a class="menuItem__link" href="#">Kultur & Historie</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div class="main__content">
+      <section class="resultsPage__intro-card">
+        <h2 class="card__info">Justér slideren mellem de 2 billeder</h2>
+        <p class="card__info">(Det du foretrækker skal fylde mest i boksen)</p>
+      </section>
+      <section class="comparison__slider">
+        <div class="comparison-slider__image comparison-slider__image--right">
+          <img src="images/forHeleFamilien-slider-2.png" alt="Radiobiler" />
+          <div class="comparison-slider__label comparison-slider__label--left">
+            Forlystelser
+          </div>
+        </div>
+        <div class="comparison-slider__image comparison-slider__image--left">
+          <img src="images/kulturHistorie-slider-1.png" alt="Historie" />
+          <div class="comparison-slider__label comparison-slider__label--right">
+            Historie
+          </div>
+        </div>
+        <div class="comparison-slider__handle">
+          <div class="arrow arrow--left"></div>
+          <div class="arrow arrow--right"></div>
+          <div class="comparison-slider__circle"></div>
+        </div>
+      </section>
+      <section class="button__container">
+        <a href="testResultsPage.html" class="button__primary">Vis resultat</a>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <section class="SoMe__container">
+        <span>Følg med:</span>
+        <img src="images/instagram.png" alt="Instagram" class="SoMe__logo" />
+        <img
+          src="images/facebook.png"
+          alt="Facebook"
+          class="SoMe__logo SoMe__logo--facebook"
+        />
+        <img src="images/youtube.png" alt="YouTube" class="SoMe__logo" />
+      </section>
+      <div class="footer__container">
+        <div class="footer__section footer__contact">
+          <h2>Destination Sønderjylland</h2>
+          <p>Perlegade 50</p>
+          <p>Email: info@visitsonderborg.com</p>
+          <p>Tlf: +45 74 42 35 55</p>
+        </div>
+        <div class="footer__section footer__links">
+          <h2>Information</h2>
+          <ul class="information__text">
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Nyhedsbrev</a></li>
+            <li><a href="#">Presse</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>VisitSønderjylland © 2024</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="header.js"></script>
+    <script src="imageComparison.js"></script>
+  </body>
+</html>
